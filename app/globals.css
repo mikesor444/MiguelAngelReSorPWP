@@ -106,7 +106,6 @@ a {
     font-size: 12pt;
   }
 
-  .print:hidden,
   .print\\:hidden {
     display: none !important;
   }
