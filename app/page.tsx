@@ -68,7 +68,7 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen bg-[var(--bg)] text-[var(--text)]">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(99,102,241,0.15),transparent_25%),radial-gradient(circle_at_80%_20%,rgba(34,211,238,0.12),transparent_26%)] blur-3xl print:hidden" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(99,102,241,0.15),transparent_25%),radial-gradient(circle_at_80%_20%,rgba(34,211,238,0.12),transparent_26%)] blur-3xl print-hidden" />
       <Toggles
         lang={lang}
         theme={theme}
@@ -201,7 +201,7 @@ export default function Home() {
                 </label>
                 <button
                   type="button"
-                  className="w-full rounded-full bg-gradient-to-r from-indigo-500 via-cyan-500 to-emerald-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:brightness-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-300 print:hidden"
+                  className="w-full rounded-full bg-gradient-to-r from-indigo-500 via-cyan-500 to-emerald-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:brightness-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-300 print-hidden"
                 >
                   {t.contact.form.submit}
                 </button>
@@ -243,7 +243,7 @@ export default function Home() {
               </SimpleCard>
               <a
                 href={PDF_URL}
-                className="flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-3 text-sm font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300 print:hidden"
+                className="flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-3 text-sm font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300 print-hidden"
               >
                 {t.contact.download}
               </a>

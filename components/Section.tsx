@@ -13,7 +13,7 @@ export function Section({ id, title, eyebrow, actions, children }: Props) {
     <section id={id} className="scroll-m-20 space-y-4">
       <div className="flex items-center gap-3">
         <div className="h-px flex-1 bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 opacity-70" />
-        <div className="flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm uppercase tracking-[0.25em] text-cyan-200/80 backdrop-blur print:hidden">
+        <div className="flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm uppercase tracking-[0.25em] text-cyan-200/80 backdrop-blur print-hidden">
           <span>{eyebrow ?? "SECTION"}</span>
         </div>
       </div>

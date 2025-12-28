@@ -20,7 +20,7 @@ export function ModalSummary({
       role="dialog"
       aria-modal="true"
       aria-label={title}
-      className="print:hidden fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur"
+      className="print-hidden fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur"
       onClick={onClose}
     >
       <div

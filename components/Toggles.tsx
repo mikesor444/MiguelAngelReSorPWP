@@ -11,7 +11,7 @@ export function Toggles({ lang, theme, onToggleLang, onToggleTheme }: Props) {
   const nextLang = lang === "en" ? "ES" : "EN";
 
   return (
-    <div className="print:hidden fixed right-4 top-4 z-50">
+    <div className="print-hidden fixed right-4 top-4 z-50">
       <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 backdrop-blur-md shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
         <button
           type="button"
